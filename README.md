@@ -7,7 +7,5 @@ init
 
 **Still need to add:**
 
-install davetroy-geohash from custom source
-a few others need help, like image_science rmagick
-set rvm gem as default “gem”
+a few others need help, like rmagick
 add dropbox: https://www.dropbox.com/install?os=lnx
