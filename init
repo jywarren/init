@@ -1,15 +1,18 @@
 sudo apt-get install aptitude
-sudo aptitude install vim gdal-bin imagemagick ruby-rmagick vlc gimp git-core mysql-server libopenssl-ruby libcurl4-openssl-dev libssl-dev
+sudo aptitude install vim gdal-bin imagemagick ruby-rmagick vlc git-core mysql-server libopenssl-ruby libcurl4-openssl-dev libssl-dev htop screen
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+sudo apt-get update
+sudo aptitude install gimp
 # install rvm the "right way":
 curl -L get.rvm.io | bash -s stable
 # add to .bash_profile:     [[ -s "/usr/share/ruby-rvm/scripts/rvm" ]] && source "/usr/share/ruby-rvm/scripts/rvm"  # This loads RVM into a shell session.
 # https://rvm.io/integration/gnome-terminal/
-# for rails mysql gem and image_science gem:
-sudo aptitude install libmysqlclient-dev libmysqlclient16 ruby-dev libfreeimage3 libfreeimage-dev
+# for rails mysql image_science and rmagick gems:
+sudo aptitude install libmysqlclient-dev libmysqlclient16 ruby-dev libfreeimage3 libfreeimage-dev librmagick-ruby libmagickcore-dev libmagickwand-dev
 rvm install 1.8.7
 rvm use --default 1.8.7
 gem sources -a http://gems.github.com
-gem install rails passenger mysql sqlite3 aws-s3 geokit github hpricot httparty image_science json json_pure mini_magick oauth passenger rmagick RubyInline sanitize yaml_db georuby git haml mysql2 oauth-plugin recaptcha sqlite3 RedCloth ruby-openid rack-openid redcarpet davetroy-geohash
+gem install rails passenger mysql sqlite3 aws-s3 geokit github hpricot httparty image_science json json_pure mini_magick oauth passenger rmagick RubyInline sanitize yaml_db georuby git haml mysql2 oauth-plugin recaptcha sqlite3 RedCloth ruby-openid rack-openid redcarpet davetroy-geohash rmagick
 source ~/.profile && source ~/.bashrc
 gem install will_paginate -v 2.3.16
 gem install rails -v 2.3.14
