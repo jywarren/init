@@ -16,3 +16,4 @@ gem install rails passenger mysql sqlite3 aws-s3 geokit github hpricot httparty 
 source ~/.profile && source ~/.bashrc
 gem install will_paginate -v 2.3.16
 gem install rails -v 2.3.14
+# for ruby 1.9.2, see http://deadmemes.net/2011/10/28/rvm-install-fails-on-ubuntu-11-10/
