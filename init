@@ -17,3 +17,5 @@ rvm install 2.1.2
 rvm use --default 2.1.2
 # mosh encoding fixes:
 sudo locale-gen en_US.UTF-8
+# add this to ~/.bashrc
+# export LANG=en_US.UTF-8
