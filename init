@@ -1,5 +1,6 @@
 sudo apt-get install aptitude
-sudo aptitude install vim gdal-bin imagemagick ruby-rmagick vlc git-core mysql-server libopenssl-ruby libcurl4-openssl-dev libssl-dev htop screen subversion
+sudo aptitude install curl vim git  libcurl4-openssl-dev libssl-dev htop screen
+sudo aptitude install gdal-bin imagemagick ruby-rmagick vlc mysql-server libopenssl-ruby
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 sudo apt-get update
 sudo aptitude install gimp
