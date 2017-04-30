@@ -1,5 +1,5 @@
 sudo apt-get install aptitude
-sudo aptitude install curl vim git  libcurl4-openssl-dev libssl-dev htop screen python g++ mosh nvm
+sudo aptitude install curl vim git  libcurl4-openssl-dev libssl-dev htop screen python g++ mosh
 # some extras:
 # sudo aptitude install gdal-bin imagemagick ruby-rmagick vlc mysql-server libopenssl-ruby
 # GIMP:
@@ -9,6 +9,8 @@ sudo aptitude install curl vim git  libcurl4-openssl-dev libssl-dev htop screen 
 # install rvm the "right way":
 curl -L get.rvm.io | bash -s stable
 # https://rvm.io/integration/gnome-terminal/
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+nvm install stable
 # for rails mysql image_science and rmagick gems:
 sudo aptitude install libmysqlclient-dev libmysqlclient16 ruby-dev
 # image processing:
