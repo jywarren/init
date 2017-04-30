@@ -1,5 +1,5 @@
 sudo apt-get install aptitude
-sudo aptitude install curl vim git  libcurl4-openssl-dev libssl-dev htop screen python g++
+sudo aptitude install curl vim git  libcurl4-openssl-dev libssl-dev htop screen python g++ mosh
 # some extras:
 # sudo aptitude install gdal-bin imagemagick ruby-rmagick vlc mysql-server libopenssl-ruby
 # GIMP:
